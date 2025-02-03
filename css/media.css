@@ -1,0 +1,214 @@
+@media all and (width < 768px)
+{
+.navbar-collapse
+{
+    background-color: var(--ed-sec-bg) ;
+    text-align: center;
+
+}
+.nav-item
+{
+    padding-block: 0.5rem;
+ 
+}
+
+a.hover-nav#HOME::after
+{
+    position: unset !important;
+}
+.edit-am-txt
+{
+    font-size: 2rem !important;
+}
+button.carousel-control-prev.btn-angle-left
+{
+    position: absolute;
+    left: unset;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+button.carousel-control-next.btn-angle-right
+{
+    position: absolute;
+    right: 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+button.btn-close.btn-close-modal
+{
+    position: absolute;
+    top: -10%;
+    left: 93%;
+    background-color:  rgba(0, 0, 0, 0.1)!important;
+    font-weight: bolder;
+    cursor: zoom-in;
+}
+.content-inner-image
+{
+    width: 98%;
+    height: 96.5%;
+    margin-top: 6px;
+}
+.nav-link.hover-nav::after 
+{
+
+    position: unset;
+}
+h4.title-left
+{
+    font-weight: 800;
+    color: var(--avarage-lightdark-color);
+    font-size: 1.875rem;
+    line-height: 1.9375rem;
+    font-family: var(--h-txt-font);
+    margin-bottom: 0;
+    margin-top: 3.5rem;
+}
+h3.text-service::after
+{
+    width: 50%;
+    left: 25%;
+}
+h2.txt-our-port::after
+{
+    width: 55%;
+    left: 22%;
+}
+.content-inner-image
+{
+    height: 94%;
+}
+.test-txt::after
+{
+    left: 0.75em;
+}
+h3.edit-txt-ourteam::after
+{
+    right: 15%;
+}
+h3.title-contact::after
+{
+    width: 70%;
+    right: 15%;
+}
+.bg-dots
+{
+    position: relative;
+    z-index: 1;
+    width: 90%;
+    margin: auto;
+}
+.bg-dots::before
+{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    right: 30%;
+    background-image: url(../images/dots.webp);
+    top: 28%;
+    background-repeat: repeat;
+    z-index: -1;
+}
+}
+@media all and (768px < width <= 1114px)
+{
+.navbar-collapse
+{
+    background-color: var(--ed-sec-bg) ;
+    text-align: center;
+
+}
+.nav-item
+{
+    padding-block: 0.5rem;
+ 
+}
+
+.content-inner-image
+{
+    margin-left: 2px;
+    width: 98%;
+    height: 96.25% !important;
+}
+.nav-link.hover-nav::after 
+{
+    position: unset;
+}
+h4.title-left
+{
+    font-weight: 800;
+    color: var(--avarage-lightdark-color);
+    font-size: 1.875rem;
+    line-height: 1.9375rem;
+    font-family: var(--h-txt-font);
+    margin-bottom: 0;
+    margin-top: 3.5rem;
+}
+h3.text-service::after
+{
+    width: 30%;
+    left: 35%;
+}
+h2.txt-our-port::after
+{
+    width: 31%;
+    left: 35%;
+}
+
+.test-txt::after
+{
+    left: 5em;
+}
+h3.edit-txt-ourteam::after
+{
+    right: 32%;
+}
+h3.title-contact::after
+{
+    width: 39%;
+    right: 30%;
+}
+.bg-dots
+{
+    position: relative;
+    z-index: 1;
+    width: 90%;
+    margin: auto;
+}
+.bg-dots::before
+{
+    width: 80%;
+    height: 80%;
+    right: 25%;
+    background-image: url(../images/dots.webp);
+    top: 25%;
+}
+
+}
+@media all and (1114px < width <= 1280px)
+{
+    button.carousel-control-prev.btn-angle-left
+    {
+        position: absolute;
+        left: -15%;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 20%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    button.carousel-control-next.btn-angle-right
+    {
+        position: absolute;
+        right: -15%;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 20%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+}
